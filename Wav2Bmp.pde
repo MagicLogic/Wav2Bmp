@@ -73,7 +73,6 @@ void out_width(int num) {
 }
 
 void dropEvent(DropEvent theDropEvent) {
-print("aaa");
   File file = theDropEvent.file();
   if(file.isDirectory()){
     String[] fileArray = file.list();
